@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+#intro{
+    height: 40%;
+    width: 100%;
+    /* background-color: palevioletred; */
+    padding: 55px 60px;
+}
+#intro h1 {
+    font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 70px;
+    font-weight: 500;
+}
+#place{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+#place h3,#place h4{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+#hero0{
+    height: 87%;
+    width: 100%;
+    background-color: orange;
+    background-image: url(https://ahmadraza08.github.io/Landing-Page-Bent-/model.webp);
+    background-size: cover;
+
+}
+#about{
+    height: 40%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+#about h2{
+    /* background-color: red; */
+    width: 67%;
+    font-size: 60px; 
+    line-height: 70px ;
+    font-weight: 400;
+
+}
+
+#about2{
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid black;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#about2 h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+#icon{
+    /* background-color: red; */
+}
+#icon i{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    margin-right: 5px;
+    padding: 10px;
+    border-bottom: 2px;
+
+}
